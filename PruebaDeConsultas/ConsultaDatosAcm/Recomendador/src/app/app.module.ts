@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+import {RoutesAppModules} from "./Routes";
 import { AppComponent } from './app.component';
 import { InicioComponent } from './Componentes/inicio/inicio.component';
 
@@ -12,7 +12,8 @@ import { InicioComponent } from './Componentes/inicio/inicio.component';
     InicioComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RoutesAppModules
   ],
   providers: [],
   bootstrap: [AppComponent]
