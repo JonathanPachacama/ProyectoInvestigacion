@@ -1,0 +1,39 @@
+<div class="container" style="background-color: black">
+
+  <div class="row">
+
+
+
+
+      <img class="img-cabecera"
+           src="https://www.acm.org/binaries/content/gallery/acm/ctas/fca_logo.jpg/fca_logo.jpg/acm%3Adesktopcta"
+           alt=""
+           width="100%">
+
+
+  </div>
+
+  <br><br><br>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let arti of articulos;let indice = index;">
+
+      <div class="card">
+        <img class="card-img-top"
+             src="http://blog.ciat.cgiar.org/wp-content/uploads/magazines.jpg"
+             alt="Card image cap"  height="200">
+
+        <app-articulo [articulos]="arti"></app-articulo>
+
+        <br>
+        <br>
+        <button class="btn btn-primary" (click)="crearMovimiento(arti)">Guardar</button>
+        <br>
+
+
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"></div>
+  </div>
+</div>
+
