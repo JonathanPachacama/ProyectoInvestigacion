@@ -3,7 +3,8 @@ export interface ArticuloInterface {
   type?: string,
   datatype?: string,
   s?:object,
-  o?:object
+  o?:object,
+  p?:object
 
 
 }
