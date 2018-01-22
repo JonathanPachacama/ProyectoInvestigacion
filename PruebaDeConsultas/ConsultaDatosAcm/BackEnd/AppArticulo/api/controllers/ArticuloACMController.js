@@ -1,7 +1,7 @@
 /**
  * ArticuloACMController
  *
- * @description :: Server-side logic for managing articuloacms
+ * @description :: Server-side logic for managing Articuloacms
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 
